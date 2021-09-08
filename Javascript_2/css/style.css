@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+body{
+    margin: 0;
+    font-family:'DM Sans';
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    width: 100%;
+    background-color: bisque;
+    border-bottom: lemonchiffon;
+    box-shadow: 0px 0px 6px 2px #504d4d;;
+}
+
+.left span{
+    display: flex;
+    align-items: center;
+    font-size: 2.3rem;
+    height: inherit;
+    margin-left: 2rem;
+    font-family: 'DM Sans';
+}
+
+.right img{
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    height: 2.4rem;
+    width: 2.3rem;
+    cursor: pointer;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.main::before{
+    content: "";
+    position: absolute;
+    background-image: url(../img/BGIM2.jpg);
+    background-size: cover;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}
+
+.todo-list{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    width: 18rem;
+    height: 25rem;
+    margin-bottom: 1rem;
+    background-color: rgb(221, 137, 122);
+    display: flex;
+    flex-direction:column;
+    border: 1.5px solid #504d4d;
+    border-radius: 0.9rem;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.card-header{
+    display: flex;
+    height: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(2, 1, 0, 0.952);
+
+}
+
+.title-card span{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    width: 3rem;
+    color: aliceblue;
+
+}
+
+.check img{
+    display: flex;
+    align-items: center;
+    margin-right: 0.4rem;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+.text-card span{
+    margin: 1rem 0.4rem 0 0.4rem;
+    display: flex;
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
